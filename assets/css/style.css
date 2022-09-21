@@ -93,14 +93,14 @@ main{
 }
 
 .card4 {
-    margin-top: 100px;
+    margin-top: 200px;
     background-color: rgb(12, 135, 129);
     width: 400px;
     height:500px;
 }
 
 .card5 {
-    margin-top: 100px;
+    margin-top: 200px;
     background-color: rgb(31, 89, 176);
     height:500px;
     width: 400px;
@@ -108,19 +108,21 @@ main{
 
 
 .card6 {
-    margin-top: 100px;
-
+    margin-top: 200px;
     background-color: rgb(73, 118, 190);
-    width: 400px;    height:500px;
+    width: 400px;    
+    height:500px;
 }
 
 .img {
     width: 100%;
     object-fit: contain;
+
 }
 
 .img2 {
 display: none;
+
 
 }
 
@@ -134,14 +136,46 @@ main:hover .img2 {
 
 }
 
-.fa-heart{
-color: red;
-font-size: 40px;
+
+
+/* .fa-heart{
+color: black;
+font-size: 30px;
 position:absolute;
-position: bottom right;
+right:50px;
+top:10px;
+
+} */
+.heart {
+height: 20px;
+width: 20px;
+color: rgb(0, 0, 0);
+position:absolute;
+right:10px;
+top:10px;
+z-index: 1;
 }
 
+/* div solo 1 in assoluto con flax o 2 span */
 .sconto {
-div solo 1 in assoluto con flax o 2 span
 
 }
+
+.red {
+    text-decoration: line-through;
+    color: red;
+}
+
+.red2 {
+    color: red;
+}
+
+
+
+footer {
+    background-color: black;
+    color: white;
+    margin-top: 300px;
+  }
+  
+  
